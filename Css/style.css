@@ -115,13 +115,17 @@ canvas {
 
     }
 
-    .Texto {
-        display: block; /* Show the text */
-        text-align: center; /* Center the text */
-        margin-top: 10px; /* Adjust the margin to your preference */
+    .Contenedor {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
     }
 
-    .Texto h4 {
-        font-size: 50px; /* Adjust the font size to your preference */
+    .CanvasAndText {
+        display: flex;
+        flex-direction: column; /* Place items vertically */
+        align-items: center; /* Center items horizontally */
     }
 }
